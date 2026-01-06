@@ -8,4 +8,7 @@ module pedronunesdev.javafxjdbc {
 
     opens pedronunesdev.javafxjdbc.controller to javafx.fxml;
     exports pedronunesdev.javafxjdbc.controller;
+
+    opens pedronunesdev.javafxjdbc.model to javafx.fxml;
+    exports pedronunesdev.javafxjdbc.model;
 }
