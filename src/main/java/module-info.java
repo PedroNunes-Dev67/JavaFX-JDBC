@@ -5,4 +5,7 @@ module pedronunesdev.javafxjdbc {
 
     opens pedronunesdev.javafxjdbc to javafx.fxml;
     exports pedronunesdev.javafxjdbc;
+
+    opens pedronunesdev.javafxjdbc.controller to javafx.fxml;
+    exports pedronunesdev.javafxjdbc.controller;
 }
